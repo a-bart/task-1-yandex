@@ -1,0 +1,26 @@
+{
+  "name": "task-1-yandex",
+  "version": "1.0.0",
+  "description": "Анкета поступающего в ШРИ. В анкете я рассказал о себе, своём опыте веб-разработки и об ожиданиях от ШРИ.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-bart/task-1-yandex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-bart/task-1-yandex/issues"
+  },
+  "homepage": "https://github.com/a-bart/task-1-yandex#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inline-source": "^2.1.0",
+    "imagemin-pngquant": "^4.2.2",
+    "npm": "^3.7.5"
+  }
+}
