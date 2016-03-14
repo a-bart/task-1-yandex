@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300&subset=latin,cyrillic);
+
+html, body {
+    font-family: "Fira Sans", sans-serif;
+    color: #444444;
+    font-weight: 300;
+    
+}
+
+/*		Стили заголовка анкеты		*/
+
+.jumbotron {
+	/*фон header*/
+	background-repeat: no-repeat;
+	background-color: #2E4967;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 2560px) {
+
+	.jumbotron {
+		background-image: url(../images/minsk_xl.jpg);
+	}
+
+}
+
+@media screen and (max-width: 1920px) {
+
+	.jumbotron {
+		background-image: url(../images/minsk_lg.jpg);
+	}
+
+}	
+
+.questionnaire_header {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.questionnaire_header h2 {
+	color: #FFFFFF;
+	letter-spacing: 0.055em;
+	margin-bottom: 25px;
+
+}
+
+.questionnaire_header p {
+	color: #E5E5E5;
+	letter-spacing: 0.075em;
+	margin-bottom: 5px;
+	font-size: 21px;
+	
+}
+
+
+/*		Стили тела анкеты		*/
+
+.questionnaire_body {
+	margin-bottom: 100px;
+}
+
+.questionnaire_body p {
+	margin-top: 10px;
+	font-size: 18px;
+
+}
+
+.questionnaire_body p.caption {
+	font-weight: bold;
+}
+
+.questionnaire_body p.long_description {
+	text-indent: 40px;
+	text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+
+	.questionnaire_body p.long_description_xs {
+		text-indent: 40px;
+		text-align: justify;
+	}
+
+}
+
+/*font-awesome*/
+.questionnaire_body i {
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 11px;
+
+}
+
+.questionnaire_body .grey {
+	background-color: #F4F4F5;
+}
+
+
+/*		Заголовки в теле анкеты		*/
+
+.questionnaire_body .line {
+	border-bottom:2px #00568b solid;
+	margin-top: 50px;
+    padding-bottom: 5px;
+    /*margin-bottom: 20px;*/
+    width:100%;
+}
+
+.questionnaire_body .line h2 {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 0.110em;
+}
+
+/*font-awesome*/
+.questionnaire_body .line i {
+	font-size: 30px;
+	margin-right: 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.questionnaire_body .line {
+		text-align: center;
+	}
+
+	.questionnaire_body .line h2 {
+	display: block;
+	}
+
+	.questionnaire_body .line i {
+	font-size: 75px;
+	margin-right: 0;
+	}
+
+}	
+
